@@ -5,22 +5,19 @@
 
 Zuber is a new ride-sharing company preparing for launch in Chicago. This project focuses on understanding rider behavior, preferences, and how external factors—particularly weather—affect ride frequency and trip duration. Using historical data from taxi companies in Chicago, the goal is to extract actionable insights that can guide business strategy for Zuber’s successful market entry.
 
-## Data Source
+### Data Source
 
 The analysis is based on a structured database containing the following tables:
 
-- **Neighborhood Table**: Contains identifiers and names of Chicago neighborhoods.
-- **Cab Table**: Details about taxi companies.
-- **Weather Records Table**: Hourly weather conditions in Chicago.
-- **Trips Table**: Trip-level data including pickup and dropoff locations, timestamps, and durations.
 
-## Tools
+### Tools
+- **PostgreSQL**: Used for querying, data extraction, and analysis.
 
-- **SQL Server**: Used for querying, data extraction, and analysis.
+## Analysis
 
-## Data Cleaning and Preparation
+### Data Cleaning and Preparation
 
-### Exploratory Data Analysis
+#### Exploratory Data Analysis
 
 1. **Trip Count Analysis**
    - Counted taxi rides per company for **November 15-16, 2017**, labeled as `trips_amount`.
@@ -30,7 +27,7 @@ The analysis is based on a structured database containing the following tables:
 2. **Neighborhood Mapping**
    - Retrieved IDs for **Loop** and **O'Hare** neighborhoods using the `neighborhoods` table to support trip filtering and route-based analysis.
 
-### Weather Impact Hypothesis Testing
+#### Weather Impact Hypothesis Testing
 
 **Hypothesis**: *Weather conditions significantly impact ride frequency and duration.*
 
@@ -49,7 +46,7 @@ Steps:
 - Ignored rides with missing weather data.
 - Sorted final output by `trip_id`.
 
-## Analysis
+
 
 - **Company Comparison**: Investigated number of taxi rides and grouped results by company name to understand operator market share and ride volume.
 - **Weather Categorization**: Integrated weather data to classify each time window as having either `Good` or `Bad` weather (i.e., rain or storm) and aligned this with trip data.
