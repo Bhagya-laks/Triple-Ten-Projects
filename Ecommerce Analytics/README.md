@@ -10,7 +10,7 @@ As a Junior Analyst at an e-commerce company, I was tasked with analyzing raw us
 
 These insights are crucial for optimizing marketing efforts, improving user engagement, and enhancing the overall shopping experience.
 
-## Data Source
+### Data Source
 
 The dataset was sourced from a Google Spreadsheet and includes the following fields:
 
@@ -21,12 +21,14 @@ The dataset was sourced from a Google Spreadsheet and includes the following fie
 - `price`: Product price  
 - `event_date`: Timestamp of the event (ranging from **2019-09-24 to 2021-02-28**)  
 
-## Tools Used
+### Tools Used
 
-- **Excel**: For data inspection, cleaning, and transformation  
-- **Pivot Tables**: For building the conversion funnel, performing cohort analysis, and calculating retention rates  
+- **Google Sheets**: For data inspection, cleaning, and transformation  
+- **Pivot Tables**: For building the conversion funnel, performing cohort analysis, and calculating retention rates
 
-## Data Cleaning and Preparation
+ ## Analysis
+
+### Data Cleaning and Preparation
 
 ### Part 1: Build a Conversion Funnel
 
@@ -41,41 +43,25 @@ The dataset was sourced from a Google Spreadsheet and includes the following fie
 
 ### Part 2: Cohort Data Preparation
 
-#### Identify First Purchase Dates
-
 1. Created a new pivot sheet named **`purchase_activity`**.
 2. Calculated each user's **first purchase date** using a minimum date aggregation.
 3. Added a new column `first_purchase_date` using:
    ```excel
    =VLOOKUP(A2, first_Purchase!$A$2:$B$1082, 2)
    ```
-4. Validated that the `first_purchase_date` is not later than the actual `purchase_date`.
+Created a pivot table that looks like below:
 
-#### Build Monthly Cohorts
-
-Created three new columns in the `purchase_activity` sheet:
-- `event_month`: `=TEXT(F2,"YYYY-MM")`
-- `first_purchase_month`: `=TEXT(G2,"YYYY-MM")`
-- `cohort_age` (months since first purchase): `=DATEDIF(I2, H2,"M")`
+<img src= "First purchase activity.png" />
 
 ---
 
 ### Part 3: Retention Rate Calculation
 
-1. Created a new pivot sheet named **`cohort_analysis`**.
-2. Structured the pivot table with:
-   - Rows: `first_purchase_month` (cohort identifier)
-   - Columns: `cohort_age`
-   - Values: Count of unique users
-
-3. Calculated monthly **retention rates**:
-   ```excel
-   =IFERROR(Cohort_Analysis!C3/Cohort_Analysis!$G3, "-")
-   ```
+<img src="Retention Rates.png" />
 
 ---
-
-## Analysis
+ 
+## Conclusions
 
 - **Overall Trend**: User activity and retention decrease over time. The user base is shrinking from month to month across different cohorts.
 - **Conversion Funnel**:
