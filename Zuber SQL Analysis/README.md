@@ -8,7 +8,7 @@ Zuber is a new ride-sharing company preparing for launch in Chicago. This projec
 ### Data Source
 
 The analysis is based on a structured database containing the following tables:
-
+<img src= "ERD.png" />
 
 ### Tools
 - **PostgreSQL**: Used for querying, data extraction, and analysis.
@@ -24,6 +24,8 @@ The analysis is based on a structured database containing the following tables:
    - Filtered and grouped ride counts for companies whose names include **"Yellow"** or **"Blue"** for **November 1-7, 2017**. Grouped by `company_name`, labeled as `trips_amount`.
    - Categorized and summed trips for all other companies under a new group labeled **"Other"**. Sorted results by `trips_amount` in descending order.
 
+     <img src= "Task3.png "/>
+     
 2. **Neighborhood Mapping**
    - Retrieved IDs for **Loop** and **O'Hare** neighborhoods using the `neighborhoods` table to support trip filtering and route-based analysis.
 
