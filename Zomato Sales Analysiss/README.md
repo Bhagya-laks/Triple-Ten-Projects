@@ -7,7 +7,7 @@ As a Junior Analyst at Zomato, this project focuses on analyzing the business pe
 
 ---
 
-## 🗂️ Data Sources
+#### 🗂️ Data Sources
 
 - **Orders.csv**  
   Contains order-level details including order IDs and total sales amount.
@@ -20,14 +20,14 @@ As a Junior Analyst at Zomato, this project focuses on analyzing the business pe
 
 ---
 
-## 🛠️ Tools Used
+#### 🛠️ Tools Used
 
 - **Excel**: Data cleaning and preparation  
 - **Power BI**: Dashboard creation, visual analysis, and reporting
 
 ---
 
-## 📈 Key Insights
+## 📈Analysis
 
 - **Seasonality**:  
   Sales are highest in **Q4**, indicating strong performance during festive and holiday periods.
@@ -43,6 +43,23 @@ As a Junior Analyst at Zomato, this project focuses on analyzing the business pe
 
 - **Product Quality**:  
   Products rated between **3.5–4.5** achieve the highest sales, showing strong customer preference for quality.
+
+The Power BI dashboard visually presents these insights with filters, slicers, and KPI cards across:
+
+<img src= "Final Project Dashboard screenshot.png "/>
+
+---
+
+## 🧾 Conclusion
+
+This analysis provides data-driven insights into Zomato's restaurant ecosystem:
+
+1. **Sales peak in Q4**, highlighting the importance of seasonal campaigns.
+2. **Sales ≠ Orders**—optimizing both volume and value is essential.
+3. Popular cuisines (North Indian, Chinese) reflect strong **customer demand**.
+4. **Ratings directly influence revenue**, proving service quality is key.
+5. **Students and mid/high-income groups** are core sales drivers.
+6. **Product quality and reputation management** are critical for long-term success.
 
 ---
 
@@ -75,27 +92,7 @@ As a Junior Analyst at Zomato, this project focuses on analyzing the business pe
 
 ---
 
-## 🧾 Conclusion
 
-This analysis provides data-driven insights into Zomato's restaurant ecosystem:
 
-1. **Sales peak in Q4**, highlighting the importance of seasonal campaigns.
-2. **Sales ≠ Orders**—optimizing both volume and value is essential.
-3. Popular cuisines (North Indian, Chinese) reflect strong **customer demand**.
-4. **Ratings directly influence revenue**, proving service quality is key.
-5. **Students and mid/high-income groups** are core sales drivers.
-6. **Product quality and reputation management** are critical for long-term success.
 
----
 
-## 📊 Dashboard Access
-
-The Power BI dashboard visually presents these insights with filters, slicers, and KPI cards across:
-- Cities, cuisines, and restaurants
-- Monthly and demographic breakdowns
-- Ratings, sales, and order volume
-
----
-
-> Built by Bia | Business Intelligence Analyst  
-> Tools: Excel | Power BI | SQL  
