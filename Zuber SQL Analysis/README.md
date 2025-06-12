@@ -15,6 +15,10 @@ The analysis is based on a structured database containing the following tables:
 
 ## Analysis
 
+<a href="https://github.com/Bhagya-laks/Triple-Ten-Projects/blob/main/Zuber%20SQL%20Analysis/Zuber%20%20Analysis.pdf" >Analysis Report</a>
+
+
+
 ### Data Cleaning and Preparation
 
 #### Exploratory Data Analysis
