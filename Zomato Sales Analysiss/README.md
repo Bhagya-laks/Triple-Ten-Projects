@@ -5,6 +5,8 @@
 
 As a Junior Analyst at Zomato, this project focuses on analyzing the business performance of partner restaurants using customer orders and behavioral data. The goal is to derive actionable insights and create an interactive dashboard that reflects sales trends, customer preferences, and overall operational effectiveness.
 
+The plan for analysis can be found at [Decomposition Plan](https://github.com/Bhagya-laks/ZomatoSalesAnalysiss/ZomatoDecompositionplan.docx)
+
 ---
 
 #### 🗂️ Data Sources
