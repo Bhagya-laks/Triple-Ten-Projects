@@ -68,4 +68,4 @@ Allocate more advertising budget during months with high ride frequency and favo
 
 ---
 
-*Prepared by the Data Analysis Team at Zuber.*
+
