@@ -17,12 +17,21 @@ This project was undertaken as a consultant tasked with reviewing Superstore's s
 
 ## 📊 Analysis
 
+<a href="https://public.tableau.com/views/Superstore_17435126136000/Productssellingandproductstostop?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">Dashboard Link</a><br/>
+<a href="https://github.com/Bhagya-laks/Triple-Ten-Projects/tree/main/Superstore%20Analysis" >Analysis Report</a>
+
 ### Part 1: Profits & Losses
 - Identified **top 2 most profitable dimension pairs**, such as *Sub-Category + Region* and *Product ID + Shipping Mode*.
 - Detected **top 2 loss-making combinations**, highlighting areas for review or discontinuation.
 - Highlighted **specific loss-generating products** (e.g., certain office supply items) that consistently underperform.
 - Selected **3 profitable subcategories** (e.g., Copiers, Phones, Accessories) to focus on.
 - Recommended **3 subcategories to avoid** (e.g., Binders, Tables, Bookcases) based on repeated losses.
+
+
+
+
+
+
 
 <img src= "Profit and loss.png" />
   
