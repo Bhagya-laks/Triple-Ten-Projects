@@ -5,6 +5,14 @@
 
 This project was undertaken as a consultant tasked with reviewing Superstore's sales operations and helping the company increase profitability and avoid bankruptcy. Using transactional data from the "superstore.xls" dataset—including information on products, orders, shipping, and returns—this analysis identifies key profit drivers, areas of loss, advertising opportunities, and risk factors due to product returns. Visualizations and metrics are used to support data-driven decisions and strategic recommendations.
 
+#### Data Source
+ - Tableau superstore dataset
+
+ 
+ #### Tools used 
+ - Excel- data source 
+ - Tableau for data visualization.
+
 ---
 
 ## 📊 Analysis
@@ -15,13 +23,18 @@ This project was undertaken as a consultant tasked with reviewing Superstore's s
 - Highlighted **specific loss-generating products** (e.g., certain office supply items) that consistently underperform.
 - Selected **3 profitable subcategories** (e.g., Copiers, Phones, Accessories) to focus on.
 - Recommended **3 subcategories to avoid** (e.g., Binders, Tables, Bookcases) based on repeated losses.
-- **Tools used**: Grouped analysis, heatmaps, bar charts in Tableau.
+
+<img src= "Profit and loss.png" />
+  
 
 ### Part 2: Advertising Strategy
 - Analyzed **average profit by state and month** to identify seasonality.
 - Recommended **top 3 combinations of state + month** (e.g., Indiana in October, Vermont in November) for advertising investment.
 - Calculated **advertising budget** using Return on Ad Spend (ROAS) model—1/5 of monthly profit as ad spend.
 - Visualized **monthly trends** in profit across key states.
+
+  <img src= "Three best states.png"/>
+  
 
 ### Part 3: Returned Items
 - **LEFT JOIN** performed between Orders and Returns tables to assess return rates.
@@ -63,4 +76,4 @@ This project was undertaken as a consultant tasked with reviewing Superstore's s
 
 ---
 
-> **Outcome**: These insights support actionable changes in inventory, advertising, and quality control that can enhance profitability and customer satisfaction—helping Superstore regain financial stability.
+
