@@ -18,7 +18,7 @@ This project was undertaken as a consultant tasked with reviewing Superstore's s
 ## 📊 Analysis
 
 <a href="https://public.tableau.com/views/Superstore_17435126136000/Productssellingandproductstostop?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">Dashboard Link</a><br/>
-<a href="https://github.com/Bhagya-laks/Triple-Ten-Projects/tree/main/Superstore%20Analysis" >Analysis Report</a>
+<a href="https://github.com/Bhagya-laks/Triple-Ten-Projects/blob/main/Superstore%20Analysis/Superstore%20Analysis.pdf" >Analysis Report</a>
 
 ### Part 1: Profits & Losses
 - Identified **top 2 most profitable dimension pairs**, such as *Sub-Category + Region* and *Product ID + Shipping Mode*.
