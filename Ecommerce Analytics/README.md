@@ -27,7 +27,7 @@ The dataset was sourced from a Google Spreadsheet and includes the following fie
 - **Pivot Tables**: For building the conversion funnel, performing cohort analysis, and calculating retention rates
 
  ## Analysis
-<a href="https://github.com/Bhagya-laks/Triple-Ten-Projects/blob/main/Superstore%20Analysis/Superstore%20Analysis.pdf" >Analysis Report</a>
+<a href="https://github.com/Bhagya-laks/Triple-Ten-Projects/blob/main/Ecommerce%20Analytics/Ecommerce%20Analytics.pdf" >Analysis Report</a>
 
 ### Data Cleaning and Preparation
 
